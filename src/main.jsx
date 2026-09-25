@@ -10,7 +10,7 @@ function App(){
  return <div className="app">
   <header className="nav-wrap"><nav className="nav container"><a className="brand" href="#home">K J<span></span></a><button className="menu" onClick={()=>setOpen(!open)}>{open?'✕':'☰'}</button><div className={'nav-links '+(open?'open':'')}>{nav.map(([l,id])=><a key={id} href={'#'+id} onClick={()=>setOpen(false)}>{l}</a>)}<a
   className="resume-btn"
-  href="https://drive.google.com/file/d/18v0vIgHW1E4XOfs32SWsCCAD8yUDnb8I/view?usp=sharing"
+  href="https://drive.google.com/file/d/16deVaV6d5ta1dho-WKPCF2d_tKMTX_Rf/view?usp=sharing"
   target="_blank"
   rel="noreferrer"
 >
